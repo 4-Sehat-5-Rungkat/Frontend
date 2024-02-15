@@ -1,0 +1,122 @@
+/* Header Style */
+header {
+    display: flex;
+    align-items: center;
+    background-color: white;
+}
+
+.logo {
+    margin-left: 100px;
+    margin-right: auto;
+    margin-top: 13px;
+    margin-bottom: 13px;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    color: var(--primary-color);
+}
+
+/* Body Style */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #F5F5F5;
+}
+
+.back-btn {
+    display: inline-block;
+    width: 100px;
+    padding: 5px;
+    margin: 15px auto;
+    text-align: center;
+    background-color: var(--shade-blue-color);
+    color: #8888f8;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: large;
+}
+
+.back-btn:hover {
+    color: var(--shade-blue-color);
+    background-color: var(--primary-color);
+}
+
+.container {
+    max-width: 1800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+h2 {
+    text-align: center;
+    color: var(--primary-color);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #fff;
+}
+
+table, th{
+    border: 1px solid ;
+    color: var(--primary-color);
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: var(--shade-blue-color);
+}
+
+.btn {
+    display: inline-block;
+    width: 100px;
+    padding: 5px;
+    margin: 15px auto;
+    text-align: center;
+    background-color: var(--shade-blue-color);
+    color: #8888f8;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: large;
+}
+
+.btn:hover {
+    color: var(--shade-blue-color);
+    background-color: var(--primary-color);
+}
+
+.btn-addproduct {
+    display: flex;
+    width: 100px;
+    padding: 10px;
+    margin: 20px auto;
+    text-align: center;
+    background-color: var(--shade-blue-color);
+    color: #8888f8;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: large;
+    float: right;
+}
+
+.btn-addproduct:hover {
+    color: var(--shade-blue-color);
+    background-color: var(--primary-color);
+}
+
+.product-img {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+
